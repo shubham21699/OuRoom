@@ -1,0 +1,102 @@
+html,
+body {
+  font-family: "Roboto", sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+#root {
+  height: 100vh;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.App-logo {
+  /* margin-left: 0%; */
+  /* height: 80vmin; */
+  height: 100vh;
+  /* width: 100%; */
+  /* margin-left: 0.5vw; */
+  pointer-events: none;
+  position: absolute;
+  align-items: left;
+  left: 0;
+}
+
+.joinOuterContainer {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  height: 100vh;
+  align-items: center;
+  /* background-color: #1A1A1D; */
+  background-color: #16162c;
+}
+
+.joinInnerContainer {
+  position: relative;
+  right: -2%;
+  top: 10%;
+  width: 20%;
+}
+
+.upper-line {
+  position: relative;
+  right: -500px;
+  top: -200px;
+  color: white;
+  font-size: 2rem;
+}
+
+.lower-line {
+  position: absolute;
+  right: 200px;
+  top: 150px;
+  color: white;
+  font-size: 2rem;
+}
+
+.joinInput {
+  border-radius: 0;
+  padding: 15px 20px;
+  width: 100%;
+}
+
+.heading {
+  color: white;
+  font-size: 2.5em;
+  padding-bottom: 10px;
+  border-bottom: 2px solid white;
+}
+
+.button {
+  color: #fff !important;
+  text-transform: uppercase;
+  text-decoration: none;
+  background: #2979ff;
+  padding: 20px;
+  border-radius: 5px;
+  display: inline-block;
+  border: none;
+  width: 100%;
+}
+
+.mt-20 {
+  margin-top: 20px;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .joinOuterContainer {
+    height: 100%;
+  }
+
+  .joinInnerContainer {
+    width: 90%;
+  }
+}
+
+button:focus {
+  outline: 0;
+}

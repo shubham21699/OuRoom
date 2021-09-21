@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import queryString from 'query-string';
 import io from "socket.io-client";
+import Fade from 'react-reveal/Fade';
 
 import TextContainer from '../TextContainer/TextContainer';
 import Messages from '../Messages/Messages';
@@ -56,11 +57,13 @@ const Chat = ({ location }) => {
 
   return (
     <div className="outerContainer">
+      <Fade top>
       <div className="container">
           <InfoBar room={room} />
           <Messages messages={messages} name={name} />
           <Input message={message} setMessage={setMessage} sendMessage={sendMessage} />
       </div>
+      </Fade>
       <TextContainer users={users}/>
     </div>
   );

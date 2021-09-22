@@ -19,7 +19,9 @@ input:focus, textarea:focus, select:focus{
   color: #fff !important;
   text-transform: uppercase;
   text-decoration: none;
-  background: #2979FF;
+  /* background: #2979FF; */
+  /* background: rgb(119, 64, 182); */
+  background: rgb(96, 43, 157);
   padding: 20px;
   font-size: 1rem;
   display: inline-block;

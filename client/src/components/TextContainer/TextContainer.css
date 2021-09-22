@@ -13,6 +13,12 @@
   margin-bottom: 50%;
 }
 
+.chat-logo {
+  width: 4rem;
+  position: relative;
+  top: 20px;
+}
+
 .activeItem {
   display: flex;
   align-items: center;

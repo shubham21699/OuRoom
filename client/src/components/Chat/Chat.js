@@ -56,13 +56,33 @@ const Chat = ({ location }) => {
     }
   }
 
+  const sendLocation = (event) => {
+    event.preventDefault();
+    if (!navigator.geolocation) {
+      return alert('Geolocation is not supported by your browser')
+  }
+  navigator.geolocation.getCurrentPosition((position) => {
+    console.log(position);
+     socket.emit('sendLocation', {
+         latitude: position.coords.latitude,
+         longitude: position.coords.longitude
+     }, () => {
+        //  $sendLocationButton.removeAttribute('disabled')
+         console.log('Location shared!');  
+     })
+ })
+    // if(message) {
+    //   socket.emit('sendMessage', message, () => setMessage(''));
+    // }
+  }
+
   return (
     <div className="outerContainer">
       <Fade top>
       <div className="container">
           <InfoBar room={room} />
           <Messages messages={messages} name={name} />
-          <Input message={message} setMessage={setMessage} sendMessage={sendMessage} />
+          <Input message={message} setMessage={setMessage} sendMessage={sendMessage} sendLocation={sendLocation}/>
       </div>
       </Fade>
       <TextContainer users={users}/>

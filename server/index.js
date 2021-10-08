@@ -4,7 +4,7 @@ const http = require('http');
 const express = require('express');
 const socketio = require('socket.io');
 const cors = require('cors');
-
+const Filter = require('bad-words')
 const { addUser, removeUser, getUser, getUsersInRoom } = require('./users');
 
 const router = require('./router');
@@ -15,6 +15,8 @@ const io = socketio(server);
 
 app.use(cors());
 app.use(router);
+
+
 
 io.on('connect', (socket) => {
   socket.on('join', ({ name, room }, callback) => {
@@ -34,7 +36,8 @@ io.on('connect', (socket) => {
 
   socket.on('sendMessage', (message, callback) => {
     const user = getUser(socket.id);
-
+    const filter = new Filter();
+    message=filter.clean(message);
     io.to(user.room).emit('message', { user: user.name, text: message });
 
     callback();

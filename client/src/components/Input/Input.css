@@ -1,6 +1,6 @@
 .form {
   display: flex;
-  border-top: 2px solid #D3D3D3;
+  border-top: 2px solid #d3d3d3;
 }
 
 .input {
@@ -11,7 +11,9 @@
   font-size: 1.2em;
 }
 
-input:focus, textarea:focus, select:focus{
+input:focus,
+textarea:focus,
+select:focus {
   outline: none;
 }
 
@@ -36,7 +38,6 @@ input:focus, textarea:focus, select:focus{
   text-decoration: none;
   /* background: #2979FF; */
   /* background: rgb(119, 64, 182); */
-  /* background:rgb(53, 164, 228); */
   background: rgb(119, 64, 182);
   margin: 10px 2px 10px 5px;
   padding: 20px;

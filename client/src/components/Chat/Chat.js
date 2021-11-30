@@ -1,19 +1,21 @@
 import React, { useState, useEffect } from "react";
 import queryString from 'query-string';
 import io from "socket.io-client";
+import Fade from 'react-reveal/Fade';
+import './Chat.css';
 
 import TextContainer from '../TextContainer/TextContainer';
 import Messages from '../Messages/Messages';
 import InfoBar from '../InfoBar/InfoBar';
 import Input from '../Input/Input';
 
-import './Chat.css';
 
 const ENDPOINT = 'http://localhost:5000/';
 
 let socket;
 
 const Chat = ({ location }) => {
+
   const [name, setName] = useState('');
   const [room, setRoom] = useState('');
   const [users, setUsers] = useState('');
@@ -54,13 +56,35 @@ const Chat = ({ location }) => {
     }
   }
 
+  const sendLocation = (event) => {
+    event.preventDefault();
+    if (!navigator.geolocation) {
+      return alert('Geolocation is not supported by your browser')
+  }
+  navigator.geolocation.getCurrentPosition((position) => {
+    console.log(position);
+     socket.emit('sendLocation', {
+         latitude: position.coords.latitude,
+         longitude: position.coords.longitude
+     }, () => {
+        //  $sendLocationButton.removeAttribute('disabled')
+         console.log('Location shared!');  
+     })
+ })
+    // if(message) {
+    //   socket.emit('sendMessage', message, () => setMessage(''));
+    // }
+  }
+
   return (
     <div className="outerContainer">
+      <Fade top>
       <div className="container">
           <InfoBar room={room} />
           <Messages messages={messages} name={name} />
-          <Input message={message} setMessage={setMessage} sendMessage={sendMessage} />
+          <Input message={message} setMessage={setMessage} sendMessage={sendMessage} sendLocation={sendLocation}/>
       </div>
+      </Fade>
       <TextContainer users={users}/>
     </div>
   );

@@ -59,7 +59,8 @@
 }
 
 .backgroundBlue {
-  background: #2979ff;
+  /* background: #2979ff; */
+  background: rgb(119, 64, 182);
 }
 
 .backgroundLight {

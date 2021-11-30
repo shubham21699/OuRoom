@@ -37,14 +37,14 @@ body {
 
 .joinInnerContainer {
   position: relative;
-  right: -2%;
+  right: 3%;
   top: 10%;
   width: 20%;
 }
 
 .upper-line {
   position: relative;
-  right: -500px;
+  right: -400px;
   top: -200px;
   color: white;
   font-size: 2rem;
@@ -52,8 +52,8 @@ body {
 
 .lower-line {
   position: absolute;
-  right: 290px;
-  top: 170px;
+  right: 200px;
+  top: 120px;
   color: white;
   font-size: 2rem;
 }

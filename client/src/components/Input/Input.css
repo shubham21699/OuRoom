@@ -24,7 +24,7 @@ select:focus {
   /* background: #2979FF; */
   /* background: rgb(119, 64, 182); */
   background: rgb(96, 43, 157);
-  padding: 20px;
+  padding: 10px;
   font-size: 1rem;
   display: inline-block;
   border: none;
@@ -39,10 +39,10 @@ select:focus {
   /* background: #2979FF; */
   /* background: rgb(119, 64, 182); */
   background: rgb(96, 43, 157);
-  padding: 20px;
+  padding: 10px;
   font-size: 1rem;
   display: inline-block;
-  margin-right: 1%;
+  margin-right: .2%;
   border: none;
   width: 13%;
 }
@@ -64,7 +64,7 @@ select:focus {
   /* height: 10%; */
 }
 
-@media (min-width: 320px) and (max-width: 800px) {
+@media (min-width: 320px) and (max-width: 970px) {
   .sendButton {
     font-size: x-small;
     /* transform: rotate(-90deg); */
@@ -75,6 +75,7 @@ select:focus {
 
   .sendButton1 {
     font-size: x-small;
+    margin-right: .1%;
   }
 
   .sendLocation {

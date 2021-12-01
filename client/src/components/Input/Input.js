@@ -1,7 +1,7 @@
 import React from 'react';
 import './Input.css';
 
-const Input = ({ setMessage, sendMessage, message , sendLocation}) => (
+const Input = ({ setMessage, sendMessage, message , sendLocation,setFileName,sendFile,fileInput1}) => (
   <form className="form">
     <button className="sendLocation" onClick={e => sendLocation(e)}>@</button>
     <input
@@ -12,7 +12,13 @@ const Input = ({ setMessage, sendMessage, message , sendLocation}) => (
       onChange={({ target: { value } }) => setMessage(value)}
       onKeyPress={event => event.key === 'Enter' ? sendMessage(event) : null}
     />
-    <button className="sendButton" onClick={e => sendMessage(e)}>Send</button>
+    <button className="sendButton1" onClick={e => sendMessage(e)}>Send</button>
+    <input style={{display:'none'}} type="file" onChange={({ target: { files } }) => setFileName(files[0])} ref={fileInput => fileInput1 = fileInput}/>
+    <button className="sendButton1" onClick={(event) => {
+      event.preventDefault();
+      fileInput1.click();
+      }}>Pick File</button>
+    <button className="sendButton" onClick={e => sendFile(e)}>Upload</button>
   </form>
 )
 

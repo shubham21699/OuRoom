@@ -3,13 +3,12 @@ import queryString from 'query-string';
 import io from "socket.io-client";
 import Fade from 'react-reveal/Fade';
 import './Chat.css';
-
 import TextContainer from '../TextContainer/TextContainer';
 import Messages from '../Messages/Messages';
 import InfoBar from '../InfoBar/InfoBar';
 import Input from '../Input/Input';
-
-
+import fileDownload from 'js-file-download'
+const axios = require('axios')
 const ENDPOINT = 'http://localhost:5000/';
 
 let socket;
@@ -18,6 +17,8 @@ const Chat = ({ location }) => {
 
   const [name, setName] = useState('');
   const [room, setRoom] = useState('');
+  const [filename, setFileName] = useState('');
+  const [fileInput1, setFileInput1] = useState('');
   const [users, setUsers] = useState('');
   const [message, setMessage] = useState('');
   const [messages, setMessages] = useState([]);
@@ -43,10 +44,26 @@ const Chat = ({ location }) => {
       setMessages(messages => [ ...messages, message ]);
     });
     
+    socket.on('file', message => {
+      if(message.userid!=socket.id)
+        handleDownload(message.link,message.fname)
+      console.log(message);
+      //console.log(message)
+    });
+
     socket.on("roomData", ({ users }) => {
       setUsers(users);
     });
 }, []);
+
+const handleDownload = (url, filename) => {
+  // axios.get(url, {
+  //   responseType: 'blob',
+  // })
+  // .then((res) => {
+    fileDownload(url, filename)
+  //})
+}
 
   const sendMessage = (event) => {
     event.preventDefault();
@@ -76,13 +93,37 @@ const Chat = ({ location }) => {
     // }
   }
 
+
+  const sendFile = (event) => {
+    event.preventDefault();
+
+    if(filename) 
+    {
+      const formData = new FormData()
+      formData.append('filen',filename)
+      // axios.post("http://localhost:5000/fileupload/", formData)
+      console.log(filename);
+      socket.emit('sendFile',{file:filename, fname:filename.name}, () => setFileName(''));
+      fetch(
+        'http://localhost:5000/fileupload/',
+        {
+          method: 'POST',
+          body: formData,
+        }
+      )
+      .then(response => response.json())
+      .then(res => {  
+        console.log(res);
+      });
+    }
+  }
   return (
     <div className="outerContainer">
       <Fade top>
       <div className="container">
           <InfoBar room={room} />
           <Messages messages={messages} name={name} />
-          <Input message={message} setMessage={setMessage} sendMessage={sendMessage} sendLocation={sendLocation}/>
+          <Input message={message} setMessage={setMessage} sendMessage={sendMessage} sendLocation={sendLocation} fileInput1={fileInput1} setFileName={setFileName} sendFile={sendFile}/>
       </div>
       </Fade>
       <TextContainer users={users}/>

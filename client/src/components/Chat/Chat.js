@@ -9,7 +9,7 @@ import InfoBar from '../InfoBar/InfoBar';
 import Input from '../Input/Input';
 import fileDownload from 'js-file-download'
 const axios = require('axios')
-const ENDPOINT = 'http://localhost:5000/';
+const ENDPOINT = 'http://localhost:5001/';
 
 let socket;
 
@@ -101,11 +101,11 @@ const handleDownload = (url, filename) => {
     {
       const formData = new FormData()
       formData.append('filen',filename)
-      // axios.post("http://localhost:5000/fileupload/", formData)
+      // axios.post("http://localhost:5001/fileupload/", formData)
       console.log(filename);
       socket.emit('sendFile',{file:filename, fname:filename.name}, () => setFileName(''));
       fetch(
-        'http://localhost:5000/fileupload/',
+        'http://localhost:5001/fileupload/',
         {
           method: 'POST',
           body: formData,

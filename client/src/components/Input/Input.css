@@ -1,17 +1,19 @@
 .form {
   display: flex;
-  border-top: 2px solid #D3D3D3;
+  border-top: 2px solid #d3d3d3;
 }
 
 .input {
   border: none;
-  border-radius: 0;
+  border-radius: 0 0 10px 10px;
   padding: 2%;
   width: 80%;
   font-size: 1.2em;
 }
 
-input:focus, textarea:focus, select:focus{
+input:focus,
+textarea:focus,
+select:focus {
   outline: none;
 }
 
@@ -19,10 +21,30 @@ input:focus, textarea:focus, select:focus{
   color: #fff !important;
   text-transform: uppercase;
   text-decoration: none;
-  background: #2979FF;
+  /* background: #2979FF; */
+  /* background: rgb(119, 64, 182); */
+  background: rgb(96, 43, 157);
   padding: 20px;
   font-size: 1rem;
   display: inline-block;
   border: none;
+  border-radius: 0 0 8px 0;
   width: 20%;
+}
+
+.sendLocation {
+  color: #fff !important;
+  text-transform: uppercase;
+  text-decoration: none;
+  /* background: #2979FF; */
+  /* background: rgb(119, 64, 182); */
+  background: rgb(119, 64, 182);
+  margin: 10px 2px 10px 5px;
+  padding: 20px;
+  font-size: 1rem;
+  display: inline-block;
+  border: none;
+  border-radius: 40px;
+  width: 10%;
+  /* height: 10%; */
 }

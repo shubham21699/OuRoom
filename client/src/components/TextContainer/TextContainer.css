@@ -1,33 +1,37 @@
 .textContainer {
+  overflow: hidden;
   display: flex;
   flex-direction: column;
   top: 0%;
   margin-left: 100px;
   color: white;
-  height: 95%;
+  height: 99vh;
   justify-content: space-between;
+  font-family: cursive;
 }
-.video-container{
+.video-container {
   margin: 0px;
   padding: 0px;
   top: 0%;
 }
 
 .activeContainer {
+  font-family: fantasy;
   display: grid;
   align-items: center;
   margin-bottom: 10%;
   top: 0%;
 }
-.videoPlayer{
+.videoPlayer {
   top: 0%;
   /* height: 160%; */
   /* width: 70%; */
 }
 .videoLink {
-  border-right: 3px solid rgb(214, 8, 8);
+  /* border-right: 3px solid rgb(214, 8, 8); */
   height: 3rem;
   width: 85%;
+  font-style: italic;
 }
 .videoUpload {
   width: 15%;
@@ -36,8 +40,11 @@
   color: #fff;
 }
 .videoForm {
+  width: 30%;
+  position: fixed;
   display: flex;
   border-radius: 8px;
+  right: 3rem;
   border: 3px solid rgb(100, 100, 100);
 }
 

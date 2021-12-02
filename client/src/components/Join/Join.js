@@ -11,8 +11,8 @@ export default function SignIn() {
   return (
     <div className="joinOuterContainer">
       <img src={logo} className="App-logo" alt="logo" />
-      <p className="upper-line" > Enjoy the best experience of communications </p>
-        <p className="lower-line"> without any Privacy issues </p>
+      <p className="upper-line" > Enjoy the safe and sound experience of communication without any Privacy Issues </p>
+        {/* <p className="lower-line"> without any Privacy issues </p> */}
 
         <Fade top>
       <div className="joinInnerContainer">
@@ -25,7 +25,7 @@ export default function SignIn() {
           <input placeholder="Enter Room Name" className="joinInput mt-20" type="text" onChange={(event) => setRoom(event.target.value)} />
         </div>
         <Link onClick={e => (!name || !room) ? e.preventDefault() : null} to={`/chat?name=${name}&room=${room}`} target="_blank">
-          <button className={'button mt-20'} type="submit">Join</button>
+          <button id='Join-button' className={'button mt-20'} type="submit">Join</button>
         </Link>
       </div>
       </Fade>

@@ -8,7 +8,7 @@ const TextContainer = ({ users }) => (
   <div className="textContainer">
     <h2>Realtime Communication Without any Privacy issues <img className="chat-logo" src={chatLogo} alt="Logo" />  </h2> 
     <div className="video-container">
-    <h2>Add a Youtube video link to get started!</h2>
+    {/* <h2><i>Add a Youtube video link to get started!</i></h2>  */}
     {/* <iframe className="videoPlayer" src="https://www.youtube.com/embed/pQN-pnXPaVg" width="350" height="250" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> */}
       {/* <h2>Realtime Communication Without any Privacy issues <span role="img" aria-label="emoji">💬</span></h2> */}
       {/* <h2>with  <span role="img" aria-label="emoji">❤️</span></h2> */}
@@ -29,7 +29,7 @@ const TextContainer = ({ users }) => (
                 ))}
               </h3>
               <form className="videoForm">
-                <input className="videoLink" type="text" placeholder="Enter the video link"></input>
+                <input className="videoLink" type="text" placeholder="   Enter the video link here to play"  ></input>
                 <button className="videoUpload" onClick={(event) => { 
                   event.preventDefault();
                   let link=document.querySelector('.videoLink')

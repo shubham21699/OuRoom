@@ -1,4 +1,4 @@
-html,
+/* html,
 body {
   font-family: "Roboto", sans-serif;
   padding: 0;
@@ -11,6 +11,15 @@ body {
 
 * {
   box-sizing: border-box;
+} */
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
 }
 
 .App-logo {
@@ -30,6 +39,7 @@ body {
   justify-content: center;
   text-align: center;
   height: 100vh;
+  width: 100%;
   align-items: center;
   /* background-color: #1A1A1D; */
   background-color: #16162c;
@@ -37,9 +47,12 @@ body {
 
 .joinInnerContainer {
   position: relative;
-  right: 3%;
+  align-items: center;
+  left: -5%;
+  /* right:initial; */
   top: 10%;
   width: 20%;
+  margin: 20px 20px 20px 20px;
 }
 
 .upper-line {
@@ -48,6 +61,11 @@ body {
   top: -200px;
   color: white;
   font-size: 2rem;
+  width: 50%;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  /* white-space: initial; */
+  /* margin: 10px 10px 10px 10px; */
 }
 
 .lower-line {
@@ -64,10 +82,16 @@ body {
   width: 100%;
 }
 
+#Join-button {
+  margin: 20px -20px -20px 20px;
+}
+
 .heading {
   color: white;
   font-size: 2.5em;
   padding-bottom: 10px;
+  padding-left: 10px;
+  margin-left: 20px;
   border-bottom: 2px solid white;
 }
 
@@ -83,6 +107,10 @@ body {
   width: 100%;
 }
 
+button:hover {
+  color: green;
+}
+
 .mt-20 {
   margin-top: 20px;
 }
@@ -90,10 +118,55 @@ body {
 @media (min-width: 320px) and (max-width: 480px) {
   .joinOuterContainer {
     height: 100%;
+    align-items: center;
   }
 
   .joinInnerContainer {
-    width: 90%;
+    width: 100%;
+  }
+
+  .App-logo {
+    display: none;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 1000px) {
+  .joinOuterContainer {
+    height: 100%;
+    align-items: center;
+    overflow: hidden;
+  }
+
+  .upper-line {
+    width: 80%;
+    position: fixed;
+    margin-left: -50px;
+    top: 10px;
+    height: 50vh;
+    left: 30px;
+    margin: 50px 10px 10px 10px;
+  }
+
+  #Join-button {
+    margin: 20px -20px 20px -20px;
+    width: 70%;
+  }
+
+  .joinInnerContainer {
+    width: 50%;
+    height: 100vh;
+    /* position: fixed; */
+    bottom: -20%;
+    align-items: center;
+    margin-left: -20%;
+    margin-bottom: 20%;
+    bottom: -300px;
+    left: 10%;
+    overflow: hidden;
+  }
+
+  .App-logo {
+    display: none;
   }
 }
 

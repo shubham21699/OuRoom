@@ -1,16 +1,44 @@
 .textContainer {
   display: flex;
   flex-direction: column;
+  top: 0%;
   margin-left: 100px;
   color: white;
-  height: 80%;
+  height: 95%;
   justify-content: space-between;
+}
+.video-container{
+  margin: 0px;
+  padding: 0px;
+  top: 0%;
 }
 
 .activeContainer {
-  display: flex;
+  display: grid;
   align-items: center;
-  margin-bottom: 50%;
+  margin-bottom: 10%;
+  top: 0%;
+}
+.videoPlayer{
+  top: 0%;
+  /* height: 160%; */
+  /* width: 70%; */
+}
+.videoLink {
+  border-right: 3px solid rgb(214, 8, 8);
+  height: 3rem;
+  width: 85%;
+}
+.videoUpload {
+  width: 15%;
+  padding: 2px;
+  background-color: rgb(96, 43, 157);
+  color: #fff;
+}
+.videoForm {
+  display: flex;
+  border-radius: 8px;
+  border: 3px solid rgb(100, 100, 100);
 }
 
 .chat-logo {

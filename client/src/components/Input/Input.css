@@ -24,7 +24,7 @@ select:focus {
   /* background: #2979FF; */
   /* background: rgb(119, 64, 182); */
   background: rgb(96, 43, 157);
-  padding: 20px;
+  padding: 10px;
   font-size: 1rem;
   display: inline-block;
   border: none;
@@ -39,10 +39,10 @@ select:focus {
   /* background: #2979FF; */
   /* background: rgb(119, 64, 182); */
   background: rgb(96, 43, 157);
-  padding: 20px;
+  padding: 10px;
   font-size: 1rem;
   display: inline-block;
-  margin-right: 1%;
+  margin-right: 0.2%;
   border: none;
   width: 13%;
 }

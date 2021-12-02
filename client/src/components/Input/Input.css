@@ -64,7 +64,7 @@ select:focus {
   /* height: 10%; */
 }
 
-@media (min-width: 320px) and (max-width: 800px) {
+@media (min-width: 320px) and (max-width: 970px) {
   .sendButton {
     font-size: x-small;
     /* transform: rotate(-90deg); */
@@ -75,6 +75,7 @@ select:focus {
 
   .sendButton1 {
     font-size: x-small;
+    margin-right: .1%;
   }
 
   .sendLocation {

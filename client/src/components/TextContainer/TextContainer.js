@@ -6,7 +6,7 @@ import './TextContainer.css';
 
 const TextContainer = ({ users }) => (
   <div className="textContainer">
-    <h2>Realtime Communication Without any Privacy issues <img className="chat-logo" src={chatLogo} alt="Logo" />  </h2> 
+    <h2>Realtime Communication Without any Privacy Issues <img className="chat-logo" src={chatLogo} alt="Logo" />  </h2> 
     <div className="video-container">
     {/* <h2><i>Add a Youtube video link to get started!</i></h2>  */}
     {/* <iframe className="videoPlayer" src="https://www.youtube.com/embed/pQN-pnXPaVg" width="350" height="250" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> */}
@@ -17,7 +17,7 @@ const TextContainer = ({ users }) => (
     {
       users
         ? (
-          <div>
+          <div className="textInnerContainer">
             <h2>People currently in room:</h2>
             <div className="activeContainer">
               <h3>

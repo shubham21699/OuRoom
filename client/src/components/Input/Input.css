@@ -86,7 +86,7 @@ select:focus {
   }
 }
 
-@media (min-width: 320px) and (max-width: 1400px) {
+@media (min-width: 320px) and (max-width: 1800px) {
   .sendButton {
     font-size: x-small;
     /* transform: rotate(-90deg); */

@@ -88,7 +88,7 @@ io.on('connect', (socket) => {
 
   socket.on('sendLocation', (coords, callback) => {
     const user = getUser(socket.id)
-    io.to(user.room).emit('message', {user : user.name,text: `https://google.com/maps?q=${coords.latitude},${coords.longitude}`})
+    io.to(user.room).emit('message', {user : user.name, text: `https://google.com/maps?q=${coords.latitude},${coords.longitude}`})
     callback()
 })
 

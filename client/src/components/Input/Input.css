@@ -34,6 +34,7 @@ select:focus {
   border: none;
   border-radius: 0 0 8px 0;
   width: 15%;
+  cursor: pointer;
 }
 
 .sendButton1 {
@@ -49,6 +50,7 @@ select:focus {
   margin-right: 0.2%;
   border: none;
   width: 13%;
+  cursor: pointer;
 }
 
 .sendLocation {
@@ -64,6 +66,7 @@ select:focus {
   border-radius: 50px;
   background: black;
   width: 10%;
+  cursor: pointer;
 }
 
 @media (min-width: 320px) and (max-width: 970px) {

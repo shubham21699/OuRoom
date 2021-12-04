@@ -46,7 +46,13 @@
   background-color: rgb(96, 43, 157);
   color: #fff;
   border-radius: 0 8px 8px 0;
+  cursor: pointer;
 }
+
+.videoUpload:hover {
+  color: #fff;
+}
+
 .videoForm {
   width: 30%;
   position: fixed;

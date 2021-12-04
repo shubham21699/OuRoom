@@ -19,6 +19,11 @@ select:focus {
 
 .location-logo {
   width: 2rem;
+  position: relative;
+  align-items: center;
+  /* top: -10%; */
+  /* right: 50%;
+  left: 50%; */
 }
 
 .sendButton {
@@ -27,7 +32,8 @@ select:focus {
   text-decoration: none;
   /* background: #2979FF; */
   /* background: rgb(119, 64, 182); */
-  background: rgb(96, 43, 157);
+  background-color: rgb(96, 43, 157);
+  /* background: none; */
   padding: 10px;
   font-size: 1rem;
   display: inline-block;
@@ -54,22 +60,31 @@ select:focus {
 }
 
 .sendLocation {
+  width: 1rem;
   color: #fff !important;
   text-transform: uppercase;
   text-decoration: none;
-  /* background: rgb(119, 64, 182); */
+  /* background-color: rgb(119, 64, 182); */
+  background: rgb(96, 43, 157);
   margin: 10px 2px 10px 5px;
-  padding: 10px;
-  font-size: 1rem;
+  /* padding: 10px; */
+  /* font-size: 1rem; */
   display: inline-block;
+  position: relative;
   border: none;
   border-radius: 50px;
-  background: black;
+  /* background: black; */
   width: 10%;
   cursor: pointer;
+  display: inline-block;
+  overflow: hidden;
 }
 
 @media (min-width: 320px) and (max-width: 970px) {
+  .location-logo {
+    width: 1.5rem;
+    right: 50%;
+  }
   .sendButton {
     font-size: x-small;
     /* transform: rotate(-90deg); */
@@ -84,6 +99,7 @@ select:focus {
   }
 
   .sendLocation {
+    width: 4rem;
     font-size: x-small;
     padding: 10px;
   }
@@ -100,7 +116,6 @@ select:focus {
 
   .sendButton1 {
     font-size: x-small;
-    /* margin-right: .1%; */
   }
 
   .sendLocation {

@@ -1,15 +1,13 @@
 import React from 'react';
 import './Input.css';
-// import AddLocationAltIcon from '@mui/icons-material/AddLocationAlt';
-// import FmdGoodIcon from '@mui/icons-material/FmdGood';
-// import { AddLocationAlt } from '@mui/icons-material';
 import location from '../../icons/location.png'
 
 const Input = ({ setMessage, sendMessage, message , sendLocation,setFileName,sendFile,fileInput1}) => (
   
   <form className="form">
-    {/* <button className="sendLocation" onClick={e => sendLocation(e)}> <AddLocationAlt /> </button> */}
-    <button className="sendLocation" onClick={e => sendLocation(e)}><img className="location-logo" src={location} alt="Logo" /></button>
+    {/* <button className="sendLocation" onClick={e => sendLocation(e)}><img className="location-logo" src={location} alt="Logo" />
+    </button>   */}
+    <img className="sendLocation" onClick={e => sendLocation(e)} src={location} alt="Logo" />
     <input
       className="input"
       type="text"

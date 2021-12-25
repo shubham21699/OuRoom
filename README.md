@@ -154,28 +154,26 @@ the physical aspects of an object-oriented system. They are often be used to mod
 ![WhatsApp Image 2021-12-06 at 8 50 45 PM](https://user-images.githubusercontent.com/71596140/147381354-095a8944-96d9-419b-9891-3488a5e2c1cb.jpeg)
 <p align="center"> Figure 16. User 1(Shubham) has created the room as an admin and User 2 (Gautam) has joined it. </p>
 <br />
-<br />
+
 ![WhatsApp Image 2021-12-06 at 8 29 28 PM](https://user-images.githubusercontent.com/71596140/147381407-b6b0cf24-8da9-467f-b379-5bf9ee5147c2.jpeg)
 <br />
-<br />
+
 ![WhatsApp Image 2021-12-06 at 8 29 47 PM](https://user-images.githubusercontent.com/71596140/147381413-9c14418c-0bfe-480e-8596-27f95969c263.jpeg)
 <p align="center"> Figure 17. User 1 sends messages and locations and while receiving messages simultaneously. </p>
 <br />
-<br />
+
 <img width="603" alt="Screenshot 2021-12-25 at 1 43 07 PM" src="https://user-images.githubusercontent.com/71596140/147380661-d4c48205-376a-4e84-94f8-fa6efc00fe89.png">
-<br />
 <p align="center"> Figure 18. Illustrating the working of Profanity API by censoring foul words. </p>
 <br />
-<br />
+
 ![WhatsApp Image 2021-12-06 at 8 33 07 PM](https://user-images.githubusercontent.com/71596140/147381447-dd10b24c-1af6-492d-afb6-e1f4437eed08.jpeg)
 <br />
-<br />
+
 ![WhatsApp Image 2021-12-06 at 8 33 39 PM](https://user-images.githubusercontent.com/71596140/147381452-50b22684-1a83-48ea-b045-6b035625833a.jpeg)
 <p align="center"> Figure 19. Media playing. </p>
 <br />
-<br />
+
 ![WhatsApp Image 2021-12-06 at 8 52 47 PM](https://user-images.githubusercontent.com/71596140/147381468-81550fa2-3308-4b5d-bdde-ba57080772a6.jpeg)
-<br />
 <br />
 ![WhatsApp Image 2021-12-06 at 8 53 07 PM](https://user-images.githubusercontent.com/71596140/147381471-f35d362e-63a4-4626-ace9-f84e78a11bd2.jpeg)
 <p align="center"> Figure 20. File Sharing Functionality. </p>

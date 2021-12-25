@@ -6,14 +6,20 @@ There are numerous products available that allow for real-time “messaging” o
 
 #### Problem Introduction:
 ● There are many messaging applications present on the internet. Still, thy, which save and track our message history and then sell collected data to advertisers’ targe, ted ads which make some people insecure and uncomfortable in certain situations like Whatsapp, Lenskart, and policy bazaar which in turn bombard us with theirs.
+<br />
 ● Some websites like Dominos, Facebook which save user data like phone no, email-ids, and passwords, are prone to a data breach in which the attackers steal precious data.
+<br />
 ● Sometimes people face online bullying in terms of profane language or maybe because auto-correct/ mistyping leads to some undesirable words inclusion into the message that to be unsent, which may be uncalled for according to the situation.
+<br />
 ● Existing video-calling solutions offer screen sharing but entail audio and video lags, or users may have to switch platforms if a user shares some video link.
 
 #### Product Scope:
 ● Broadcasting Messaging Application will be a text communication software, and it will be able to communicate between two computers using point-to-point Existing user’s communication.
+<br />
 ● The limitation of Live video calling is that it suffers from buffering while sharing a youtube video, and there is no in-app feature to play the video. To overcome this limitation, we are concurrently working on developing an in-app video streaming player.
+<br />
 ● IT- Companies would like to have communication software to communicate instantly within their organization, providing them with a safety filter of profanity.
+<br />
 ● The application will be available in PWA(progressive web app) format enabling people with basic phones to utilize online standard room messaging service.
 
 #### Intended Audience and Reading Suggestions
@@ -53,7 +59,8 @@ abused-social-21436674
 ● This Messaging application can be used for group discussion with profanity filter, Real-time
 location sharing, Embedded Media player.
 ● It allows users to find other logged-in users.
-1.3.4 Assumption and dependencies:
+
+#### Assumption and dependencies:
 ● There should be LAN or internet connection.
 ● Clients should know each other.
 ● There can be multiple clients.
@@ -66,6 +73,7 @@ connected at any one time.
 ### Analysis Phase :-
 #### Use Case Diagram:
 <img width="718" alt="Screenshot 2021-12-25 at 1 20 33 PM" src="https://user-images.githubusercontent.com/71596140/147380294-bbf56a61-3105-4bb6-a564-4770e8991825.png">
+<br />
 Figure 1. This use case model shows us how the client interacts with the server and starts communicating with other clients.
 
 #### Activity diagram and Swimlane Diagrams:
@@ -73,6 +81,7 @@ Activity Diagrams consist of activities, states, and transitions between activit
 <br />
 <br />
 <img width="497" alt="Screenshot 2021-12-25 at 1 21 25 PM" src="https://user-images.githubusercontent.com/71596140/147380306-3f93cba3-9a21-4b7a-9278-b023fa7fff41.png">
+<br />
 Figure 2. Activity diagram.
 
 #### Data Flow Diagrams (DFDs):
@@ -80,23 +89,28 @@ The purpose of a DFD is to show the scope and boundaries of a system as a whole.
 
 ###### DFD Level 0
 <img width="635" alt="Screenshot 2021-12-25 at 1 22 10 PM" src="https://user-images.githubusercontent.com/71596140/147380317-92caf51c-009f-471a-9e1d-75dff8abddd5.png">
+<br />
 Figure 3. DFD Level 0
 
 ###### DFD Level 1
 <img width="548" alt="Screenshot 2021-12-25 at 1 22 36 PM" src="https://user-images.githubusercontent.com/71596140/147380321-78b6b99a-212b-418e-8644-cde3b794e29c.png">
+<br />
 Figure 4. DFD Level 1
 
 ###### DFD Level 2
 <img width="615" alt="Screenshot 2021-12-25 at 1 23 18 PM" src="https://user-images.githubusercontent.com/71596140/147380330-45e13bc3-d592-453d-9031-acb3e6e5f647.png">
+<br />
  Figure 5. DFD Level 2
 
 #### Gantt Chart:
 <img width="675" alt="Screenshot 2021-12-25 at 1 23 43 PM" src="https://user-images.githubusercontent.com/71596140/147380336-c3a4d350-2c45-4046-b2a5-8cd4dd71c3e0.png">
+<br />
 Figure 6. Gantt chart showing the time period for the project.
 
 
 #### Work Breakdown Structure:
 <img width="638" alt="Screenshot 2021-12-25 at 1 24 00 PM" src="https://user-images.githubusercontent.com/71596140/147380340-96a29487-6346-4d98-a6a3-c60c1b3a33bf.png">
+<br />
  Figure 7. Work Breakdown structure showing team's work into manageable sections
  
 ### Design Phase
@@ -105,6 +119,7 @@ The purpose of a class diagram is to model the static view of an application. Cl
 <br />
 <br />
  <img width="694" alt="Screenshot 2021-12-25 at 1 29 17 PM" src="https://user-images.githubusercontent.com/71596140/147380405-ce56e987-ddfb-4a66-90e6-9de29ce376ac.png">
+ <br />
  Figure 8. Class Diagram
 
 #### Sequence Diagram:
@@ -112,6 +127,7 @@ Sequence Diagrams aims to capture the interaction that takes place in a collabor
 <br />
 <br />
 <img width="697" alt="Screenshot 2021-12-25 at 1 29 37 PM" src="https://user-images.githubusercontent.com/71596140/147380408-13f8895a-beff-4d47-911f-ec762f90d364.png">
+<br />
 Figure 9. Sequence Diagram of Messaging application using sockets.
 
 
@@ -120,11 +136,13 @@ A collaboration diagram shows the relationships among the objects. Sequence diag
 <br />
 <br />
  <img width="664" alt="Screenshot 2021-12-25 at 1 30 00 PM" src="https://user-images.githubusercontent.com/71596140/147380416-88a56e98-a390-46f0-8ee7-e7008948649c.png">
+ <br />
  Figure 10. Collaboration Diagram
 
 
 #### E-R Diagram:
 <img width="670" alt="Screenshot 2021-12-25 at 1 30 20 PM" src="https://user-images.githubusercontent.com/71596140/147380424-988918cb-5951-4947-879f-d98610f9817c.png">
+<br />
  Figure 11. ER diagram between Client and Server.
 
 
@@ -133,6 +151,7 @@ Statechart diagram describes the flow of control from one state to another state
 <br />
 <br />
  <img width="637" alt="Screenshot 2021-12-25 at 1 30 38 PM" src="https://user-images.githubusercontent.com/71596140/147380428-ce23c035-d99f-45b0-a3d0-2eab3d266811.png">
+ <br />
  Figure 12. State Chart Diagram
 
 
@@ -142,6 +161,7 @@ A component diagram breaks down the actual system under development into various
 <br />
 <br />
 <img width="666" alt="Screenshot 2021-12-25 at 1 31 12 PM" src="https://user-images.githubusercontent.com/71596140/147380432-bf17138c-b987-45ae-9046-f333431fc30e.png"> 
+<br />
  Figure 13. Component Diagram
 
 
@@ -174,7 +194,6 @@ Figure 17: User 1 sends messages and locations and while receiving messages simu
 <br />
 <br />
 <img width="603" alt="Screenshot 2021-12-25 at 1 43 07 PM" src="https://user-images.githubusercontent.com/71596140/147380661-d4c48205-376a-4e84-94f8-fa6efc00fe89.png">
-<br />
 <br />
 Figure 18: Illustrating the working of Profanity API by censoring foul words.
 <br />

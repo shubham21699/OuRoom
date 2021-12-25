@@ -56,15 +56,17 @@ The Overall Description part of this SRS gives an outlook of the functionality o
 
 ### Analysis Phase :-
 #### Use Case Diagram:
+<p align="center"> 
 <img align="center" width="718" alt="Screenshot 2021-12-25 at 1 20 33 PM" src="https://user-images.githubusercontent.com/71596140/147380294-bbf56a61-3105-4bb6-a564-4770e8991825.png">
-<p align="center"> Figure 1. This use case model shows us how the client interacts with the server and starts communicating with other clients. </p>
+Figure 1. This use case model shows us how the client interacts with the server and starts communicating with other clients. </p>
 
 #### Activity diagram and Swimlane Diagrams:
 Activity Diagrams consist of activities, states, and transitions between activities and states which describe how activities are coordinated to provide a service, such as, a . how the events in a single-use case a that are related to one another, or how a collection of use cases coordinate to create a workflow for any organization.
 <br />
 <br />
+<p align="center"> 
 <img align="center" width="497" alt="Screenshot 2021-12-25 at 1 21 25 PM" src="https://user-images.githubusercontent.com/71596140/147380306-3f93cba3-9a21-4b7a-9278-b023fa7fff41.png">
-<p align="center"> Figure 2. Activity diagram </p>
+Figure 2. Activity diagram </p>
 
 #### Data Flow Diagrams (DFDs):
 The purpose of a DFD is to show the scope and boundaries of a system as a whole. It may be used as a communications tool between a systems analyst and any person who plays a part in the system that acts as the starting point for redesigning a system.
@@ -150,6 +152,7 @@ the physical aspects of an object-oriented system. They are often be used to mod
 
 ![WhatsApp Image 2021-12-06 at 8 27 27 PM](https://user-images.githubusercontent.com/71596140/147381377-f8f4249b-0f28-4c24-af0a-16f7bc59ec8e.jpeg)
 <p align="center"> Figure 15. Login Page </p>
+<br />
 
 ![WhatsApp Image 2021-12-06 at 8 50 45 PM](https://user-images.githubusercontent.com/71596140/147381354-095a8944-96d9-419b-9891-3488a5e2c1cb.jpeg)
 <p align="center"> Figure 16. User 1(Shubham) has created the room as an admin and User 2 (Gautam) has joined it. </p>

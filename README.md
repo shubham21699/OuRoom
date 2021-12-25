@@ -192,7 +192,7 @@ the physical aspects of an object-oriented system. They are often be used to mod
 <br />
 
 <p align="center"> 
-<img width="603" alt="Screenshot 2021-12-25 at 1 43 07 PM" src="https://user-images.githubusercontent.com/71596140/147380661-d4c48205-376a-4e84-94f8-fa6efc00fe89.png">
+<img width="721" alt="Screenshot 2021-12-25 at 1 43 07 PM" src="https://user-images.githubusercontent.com/71596140/147380661-d4c48205-376a-4e84-94f8-fa6efc00fe89.png">
 </p>
 <p align="center"> Figure 18. Illustrating the working of Profanity API by censoring foul words. </p>
 <br />

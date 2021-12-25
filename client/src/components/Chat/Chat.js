@@ -104,17 +104,17 @@ const handleDownload = (url, filename) => {
       // axios.post("http://localhost:5001/fileupload/", formData)
       console.log(filename);
       socket.emit('sendFile',{file:filename, fname:filename.name}, () => setFileName(''));
-      fetch(
-        'http://localhost:5001/fileupload/',
-        {
-          method: 'POST',
-          body: formData,
-        }
-      )
-      .then(response => response.json())
-      .then(res => {  
-        console.log(res);
-      });
+      // fetch(
+      //   'http://localhost:5001/fileupload/',
+      //   {
+      //     method: 'POST',
+      //     body: formData,
+      //   }
+      // )
+      // .then(response => response.json())
+      // .then(res => {  
+      //   console.log(res);
+      // });
     }
   }
   return (

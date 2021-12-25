@@ -57,7 +57,8 @@ The Overall Description part of this SRS gives an outlook of the functionality o
 ### Analysis Phase :-
 #### Use Case Diagram:
 <p align="center"> 
-<img align="center" width="718" alt="Screenshot 2021-12-25 at 1 20 33 PM" src="https://user-images.githubusercontent.com/71596140/147380294-bbf56a61-3105-4bb6-a564-4770e8991825.png"> </p>
+<img align="center" width="718" alt="Screenshot 2021-12-25 at 1 20 33 PM" src="https://user-images.githubusercontent.com/71596140/147380294-bbf56a61-3105-4bb6-a564-4770e8991825.png"> 
+</p>
 <p align="center"> Figure 1. This use case model shows us how the client interacts with the server and starts communicating with other clients. </p>
 
 #### Activity diagram and Swimlane Diagrams:
@@ -65,31 +66,42 @@ Activity Diagrams consist of activities, states, and transitions between activit
 <br />
 <br />
 <p align="center"> 
-<img align="center" width="497" alt="Screenshot 2021-12-25 at 1 21 25 PM" src="https://user-images.githubusercontent.com/71596140/147380306-3f93cba3-9a21-4b7a-9278-b023fa7fff41.png"> </p>
+<img align="center" width="497" alt="Screenshot 2021-12-25 at 1 21 25 PM" src="https://user-images.githubusercontent.com/71596140/147380306-3f93cba3-9a21-4b7a-9278-b023fa7fff41.png"> 
+</p>
 <p align="center"> Figure 2. Activity diagram </p>
 
 #### Data Flow Diagrams (DFDs):
 The purpose of a DFD is to show the scope and boundaries of a system as a whole. It may be used as a communications tool between a systems analyst and any person who plays a part in the system that acts as the starting point for redesigning a system.
 
 ###### DFD Level 0
-<img align="center" width="635" alt="Screenshot 2021-12-25 at 1 22 10 PM" src="https://user-images.githubusercontent.com/71596140/147380317-92caf51c-009f-471a-9e1d-75dff8abddd5.png">
+<p align="center"> 
+<img width="635" alt="Screenshot 2021-12-25 at 1 22 10 PM" src="https://user-images.githubusercontent.com/71596140/147380317-92caf51c-009f-471a-9e1d-75dff8abddd5.png"> 
+</p>
 <p align="center"> Figure 3. DFD Level 0 </p>
 
 ###### DFD Level 1
-<img align="center" width="548" alt="Screenshot 2021-12-25 at 1 22 36 PM" src="https://user-images.githubusercontent.com/71596140/147380321-78b6b99a-212b-418e-8644-cde3b794e29c.png">
+<p align="center"> 
+<img width="548" alt="Screenshot 2021-12-25 at 1 22 36 PM" src="https://user-images.githubusercontent.com/71596140/147380321-78b6b99a-212b-418e-8644-cde3b794e29c.png"> 
+</p>
 <p align="center"> Figure 4. DFD Level 1 </p>
 
 ###### DFD Level 2
-<img align="center" width="615" alt="Screenshot 2021-12-25 at 1 23 18 PM" src="https://user-images.githubusercontent.com/71596140/147380330-45e13bc3-d592-453d-9031-acb3e6e5f647.png">
+<p align="center"> 
+<img width="615" alt="Screenshot 2021-12-25 at 1 23 18 PM" src="https://user-images.githubusercontent.com/71596140/147380330-45e13bc3-d592-453d-9031-acb3e6e5f647.png"> 
+</p>
 <p align="center"> Figure 5. DFD Level 2 </p>
 
 #### Gantt Chart:
-<img align="center" width="675" alt="Screenshot 2021-12-25 at 1 23 43 PM" src="https://user-images.githubusercontent.com/71596140/147380336-c3a4d350-2c45-4046-b2a5-8cd4dd71c3e0.png">
+<p align="center"> 
+<img width="675" alt="Screenshot 2021-12-25 at 1 23 43 PM" src="https://user-images.githubusercontent.com/71596140/147380336-c3a4d350-2c45-4046-b2a5-8cd4dd71c3e0.png"> 
+</p>
 <p align="center"> Figure 6. Gantt chart showing the time period for the project </p>
 
 
 #### Work Breakdown Structure:
-<img align="center" width="638" alt="Screenshot 2021-12-25 at 1 24 00 PM" src="https://user-images.githubusercontent.com/71596140/147380340-96a29487-6346-4d98-a6a3-c60c1b3a33bf.png">
+<p align="center"> 
+<img width="638" alt="Screenshot 2021-12-25 at 1 24 00 PM" src="https://user-images.githubusercontent.com/71596140/147380340-96a29487-6346-4d98-a6a3-c60c1b3a33bf.png"> 
+</p>
 <p align="center"> Figure 7. Work Breakdown structure showing team's work into manageable sections </p>
  
 ### Design Phase
@@ -97,14 +109,18 @@ The purpose of a DFD is to show the scope and boundaries of a system as a whole.
 The purpose of a class diagram is to model the static view of an application. Class diagrams are the only ones that can be directly mapped with object-oriented languages and thus are widely used in construction. The class diagram describes a class’s attributes and operations and the constraints imposed on the system. The class diagrams are commonly used in object-oriented systems because they are the only UML diagrams that can be mapped directly with object-oriented languages.
 <br />
 <br />
- <img align="center" width="694" alt="Screenshot 2021-12-25 at 1 29 17 PM" src="https://user-images.githubusercontent.com/71596140/147380405-ce56e987-ddfb-4a66-90e6-9de29ce376ac.png">
+<p align="center"> 
+ <img width="694" alt="Screenshot 2021-12-25 at 1 29 17 PM" src="https://user-images.githubusercontent.com/71596140/147380405-ce56e987-ddfb-4a66-90e6-9de29ce376ac.png"> 
+</p>
  <p align="center"> Figure 8. Class Diagram </p>
 
 #### Sequence Diagram:
 Sequence Diagrams aims to capture the interaction that takes place in a collaboration that either realizes a use case or an operation (instance diagrams or generic diagrams) and high-level interactions between the user of the system and the system, between the system and other systems, or between subsystems (sometimes known as system sequence diagrams).
 <br />
 <br />
-<img align="center" width="697" alt="Screenshot 2021-12-25 at 1 29 37 PM" src="https://user-images.githubusercontent.com/71596140/147380408-13f8895a-beff-4d47-911f-ec762f90d364.png">
+<p align="center"> 
+<img width="697" alt="Screenshot 2021-12-25 at 1 29 37 PM" src="https://user-images.githubusercontent.com/71596140/147380408-13f8895a-beff-4d47-911f-ec762f90d364.png">
+</p>
 <p align="center"> Figure 9. Sequence Diagram of Messaging application using sockets. </p>
 
 
@@ -112,12 +128,16 @@ Sequence Diagrams aims to capture the interaction that takes place in a collabor
 A collaboration diagram shows the relationships among the objects. Sequence diagrams and collaboration diagrams express similar information but show it in different ways. They tend to be better suited to depict simpler interactions of smaller numbers of objects. However, if the number of objects and messages grows, the diagram becomes increasingly hard to read. In addition, it is difficult to show additional descriptive information such as timing, decision points, or other unstructured data that can be easily added to the notes in a sequence diagram.
 <br />
 <br />
- <img align="center" width="664" alt="Screenshot 2021-12-25 at 1 30 00 PM" src="https://user-images.githubusercontent.com/71596140/147380416-88a56e98-a390-46f0-8ee7-e7008948649c.png">
+<p align="center"> 
+ <img width="664" alt="Screenshot 2021-12-25 at 1 30 00 PM" src="https://user-images.githubusercontent.com/71596140/147380416-88a56e98-a390-46f0-8ee7-e7008948649c.png"> 
+</p>
 <p align="center"> Figure 10. Collaboration Diagram </p>
 
 
 #### E-R Diagram:
-<img align="center" width="670" alt="Screenshot 2021-12-25 at 1 30 20 PM" src="https://user-images.githubusercontent.com/71596140/147380424-988918cb-5951-4947-879f-d98610f9817c.png">
+<p align="center"> 
+<img width="670" alt="Screenshot 2021-12-25 at 1 30 20 PM" src="https://user-images.githubusercontent.com/71596140/147380424-988918cb-5951-4947-879f-d98610f9817c.png"> 
+</p>
 <p align="center"> Figure 11. ER diagram between Client and Server. </p>
 
 
@@ -125,7 +145,9 @@ A collaboration diagram shows the relationships among the objects. Sequence diag
 Statechart diagram describes the flow of control from one state to another state. States are defined as a condition in which an object exists and it changes when some event is triggered. The most important purpose of the Statechart diagram is to model the lifetime of an object from creation to termination.
 <br />
 <br />
- <img align="center" width="637" alt="Screenshot 2021-12-25 at 1 30 38 PM" src="https://user-images.githubusercontent.com/71596140/147380428-ce23c035-d99f-45b0-a3d0-2eab3d266811.png">
+<p align="center"> 
+ <img width="637" alt="Screenshot 2021-12-25 at 1 30 38 PM" src="https://user-images.githubusercontent.com/71596140/147380428-ce23c035-d99f-45b0-a3d0-2eab3d266811.png"> 
+</p>
 <p align="center"> Figure 12. State Chart Diagram </p>
 
 
@@ -134,7 +156,9 @@ Statechart diagram describes the flow of control from one state to another state
 A component diagram breaks down the actual system under development into various high levels of functionality. Each component is responsible for one clear aim within the entire system and only interacts with other essential elements on a need-to-know basis.
 <br />
 <br />
-<img align="center" width="666" alt="Screenshot 2021-12-25 at 1 31 12 PM" src="https://user-images.githubusercontent.com/71596140/147380432-bf17138c-b987-45ae-9046-f333431fc30e.png"> 
+<p align="center"> 
+<img width="666" alt="Screenshot 2021-12-25 at 1 31 12 PM" src="https://user-images.githubusercontent.com/71596140/147380432-bf17138c-b987-45ae-9046-f333431fc30e.png"> 
+</p>
 <p align="center"> Figure 13. Component Diagram </p>
 
 
@@ -143,7 +167,9 @@ A deployment diagram is a diagram that shows the configuration of run-time proce
 the physical aspects of an object-oriented system. They are often be used to model the static deployment view of a system (topology of the hardware).
 <br />
 <br />
-<img align="center" width="637" alt="Screenshot 2021-12-25 at 1 31 51 PM" src="https://user-images.githubusercontent.com/71596140/147380437-550d246e-cee0-4cfc-9a7f-be86b5f85ae4.png">
+<p align="center"> 
+<img width="637" alt="Screenshot 2021-12-25 at 1 31 51 PM" src="https://user-images.githubusercontent.com/71596140/147380437-550d246e-cee0-4cfc-9a7f-be86b5f85ae4.png"> 
+</p>
 <p align="center"> Figure 14. Deployment Diagram </p>
 
 ## WebApp View:
@@ -165,7 +191,9 @@ the physical aspects of an object-oriented system. They are often be used to mod
 <p align="center"> Figure 17. User 1 sends messages and locations and while receiving messages simultaneously. </p>
 <br />
 
+<p align="center"> 
 <img width="603" alt="Screenshot 2021-12-25 at 1 43 07 PM" src="https://user-images.githubusercontent.com/71596140/147380661-d4c48205-376a-4e84-94f8-fa6efc00fe89.png">
+</p>
 <p align="center"> Figure 18. Illustrating the working of Profanity API by censoring foul words. </p>
 <br />
 

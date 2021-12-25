@@ -58,7 +58,7 @@ The Overall Description part of this SRS gives an outlook of the functionality o
 #### Use Case Diagram:
 <img width="718" alt="Screenshot 2021-12-25 at 1 20 33 PM" src="https://user-images.githubusercontent.com/71596140/147380294-bbf56a61-3105-4bb6-a564-4770e8991825.png">
 <br />
-</t> ######## Figure 1. This use case model shows us how the client interacts with the server and starts communicating with other clients.
+######## Figure 1. This use case model shows us how the client interacts with the server and starts communicating with other clients.
 
 #### Activity diagram and Swimlane Diagrams:
 Activity Diagrams consist of activities, states, and transitions between activities and states which describe how activities are coordinated to provide a service, such as, a . how the events in a single-use case a that are related to one another, or how a collection of use cases coordinate to create a workflow for any organization.

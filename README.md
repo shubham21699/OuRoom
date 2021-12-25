@@ -150,8 +150,7 @@ the physical aspects of an object-oriented system. They are often be used to mod
 
 ![WhatsApp Image 2021-12-06 at 8 27 27 PM](https://user-images.githubusercontent.com/71596140/147381377-f8f4249b-0f28-4c24-af0a-16f7bc59ec8e.jpeg)
 <p align="center"> Figure 15. Login Page </p>
-<br />
-<br />
+
 ![WhatsApp Image 2021-12-06 at 8 50 45 PM](https://user-images.githubusercontent.com/71596140/147381354-095a8944-96d9-419b-9891-3488a5e2c1cb.jpeg)
 <p align="center"> Figure 16. User 1(Shubham) has created the room as an admin and User 2 (Gautam) has joined it. </p>
 <br />

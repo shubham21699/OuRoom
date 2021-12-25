@@ -57,16 +57,16 @@ The Overall Description part of this SRS gives an outlook of the functionality o
 ### Analysis Phase :-
 #### Use Case Diagram:
 <p align="center"> 
-<img align="center" width="718" alt="Screenshot 2021-12-25 at 1 20 33 PM" src="https://user-images.githubusercontent.com/71596140/147380294-bbf56a61-3105-4bb6-a564-4770e8991825.png">
-Figure 1. This use case model shows us how the client interacts with the server and starts communicating with other clients. </p>
+<img align="center" width="718" alt="Screenshot 2021-12-25 at 1 20 33 PM" src="https://user-images.githubusercontent.com/71596140/147380294-bbf56a61-3105-4bb6-a564-4770e8991825.png"> </p>
+<p align="center"> Figure 1. This use case model shows us how the client interacts with the server and starts communicating with other clients. </p>
 
 #### Activity diagram and Swimlane Diagrams:
 Activity Diagrams consist of activities, states, and transitions between activities and states which describe how activities are coordinated to provide a service, such as, a . how the events in a single-use case a that are related to one another, or how a collection of use cases coordinate to create a workflow for any organization.
 <br />
 <br />
 <p align="center"> 
-<img align="center" width="497" alt="Screenshot 2021-12-25 at 1 21 25 PM" src="https://user-images.githubusercontent.com/71596140/147380306-3f93cba3-9a21-4b7a-9278-b023fa7fff41.png">
-Figure 2. Activity diagram </p>
+<img align="center" width="497" alt="Screenshot 2021-12-25 at 1 21 25 PM" src="https://user-images.githubusercontent.com/71596140/147380306-3f93cba3-9a21-4b7a-9278-b023fa7fff41.png"> </p>
+<p align="center"> Figure 2. Activity diagram </p>
 
 #### Data Flow Diagrams (DFDs):
 The purpose of a DFD is to show the scope and boundaries of a system as a whole. It may be used as a communications tool between a systems analyst and any person who plays a part in the system that acts as the starting point for redesigning a system.

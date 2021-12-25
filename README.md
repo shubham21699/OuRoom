@@ -148,18 +148,18 @@ the physical aspects of an object-oriented system. They are often be used to mod
 
 ### Desktop View:
 
-![image](https://user-images.githubusercontent.com/71596140/147380564-44e26182-ecde-4d82-b5e5-75e89f39d281.png)
+![WhatsApp Image 2021-12-06 at 8 27 27 PM](https://user-images.githubusercontent.com/71596140/147381377-f8f4249b-0f28-4c24-af0a-16f7bc59ec8e.jpeg)
 <p align="center"> Figure 15. Login Page </p>
 <br />
 <br />
-![image](https://user-images.githubusercontent.com/71596140/147380595-0b2fcae2-5bb7-45ed-98d1-af91132e2c2c.png)
+![WhatsApp Image 2021-12-06 at 8 50 45 PM](https://user-images.githubusercontent.com/71596140/147381354-095a8944-96d9-419b-9891-3488a5e2c1cb.jpeg)
 <p align="center"> Figure 16. User 1(Shubham) has created the room as an admin and User 2 (Gautam) has joined it. </p>
 <br />
 <br />
-![image](https://user-images.githubusercontent.com/71596140/147380618-6fbeaf44-96ce-44a8-93b4-7ccf5c3d86c3.png)
+![WhatsApp Image 2021-12-06 at 8 29 28 PM](https://user-images.githubusercontent.com/71596140/147381407-b6b0cf24-8da9-467f-b379-5bf9ee5147c2.jpeg)
 <br />
 <br />
-![image](https://user-images.githubusercontent.com/71596140/147380628-080edc0f-7d6e-4942-a4ae-ae7a6b0cead6.png)
+![WhatsApp Image 2021-12-06 at 8 29 47 PM](https://user-images.githubusercontent.com/71596140/147381413-9c14418c-0bfe-480e-8596-27f95969c263.jpeg)
 <p align="center"> Figure 17. User 1 sends messages and locations and while receiving messages simultaneously. </p>
 <br />
 <br />
@@ -168,17 +168,17 @@ the physical aspects of an object-oriented system. They are often be used to mod
 <p align="center"> Figure 18. Illustrating the working of Profanity API by censoring foul words. </p>
 <br />
 <br />
-![image](https://user-images.githubusercontent.com/71596140/147380680-e52236fd-dbc8-4725-8c99-117eded12c53.png)
+![WhatsApp Image 2021-12-06 at 8 33 07 PM](https://user-images.githubusercontent.com/71596140/147381447-dd10b24c-1af6-492d-afb6-e1f4437eed08.jpeg)
 <br />
 <br />
-![image](https://user-images.githubusercontent.com/71596140/147380684-2146956b-9909-4acf-84ac-09f6cfc0761e.png)
+![WhatsApp Image 2021-12-06 at 8 33 39 PM](https://user-images.githubusercontent.com/71596140/147381452-50b22684-1a83-48ea-b045-6b035625833a.jpeg)
 <p align="center"> Figure 19. Media playing. </p>
 <br />
 <br />
-![image](https://user-images.githubusercontent.com/71596140/147380691-155f5706-0f7a-4178-80b7-90013f757fdb.png)
+![WhatsApp Image 2021-12-06 at 8 52 47 PM](https://user-images.githubusercontent.com/71596140/147381468-81550fa2-3308-4b5d-bdde-ba57080772a6.jpeg)
 <br />
 <br />
-![image](https://user-images.githubusercontent.com/71596140/147380708-f8e14d48-c55b-4514-acf5-b620f33a7a19.png)
+![WhatsApp Image 2021-12-06 at 8 53 07 PM](https://user-images.githubusercontent.com/71596140/147381471-f35d362e-63a4-4626-ace9-f84e78a11bd2.jpeg)
 <p align="center"> Figure 20. File Sharing Functionality. </p>
 
 ### Mobile View:

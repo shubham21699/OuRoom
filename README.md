@@ -151,6 +151,7 @@ the physical aspects of an object-oriented system. They are often be used to mod
 <br />
 <br />
 <img width="637" alt="Screenshot 2021-12-25 at 1 31 51 PM" src="https://user-images.githubusercontent.com/71596140/147380437-550d246e-cee0-4cfc-9a7f-be86b5f85ae4.png">
+<br />
 Figure 14. Deployment Diagram
 
 ## WebApp View:

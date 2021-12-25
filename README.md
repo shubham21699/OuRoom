@@ -140,25 +140,36 @@ the physical aspects of an object-oriented system. They are often be used to mod
 <img width="637" alt="Screenshot 2021-12-25 at 1 31 51 PM" src="https://user-images.githubusercontent.com/71596140/147380437-550d246e-cee0-4cfc-9a7f-be86b5f85ae4.png">
 Figure 14. Deployment Diagram
 
-### Screenshots
+### WebApp View:
+
+#### Desktop View:
 
 ![image](https://user-images.githubusercontent.com/71596140/147380564-44e26182-ecde-4d82-b5e5-75e89f39d281.png)
 Figure 15: Login Page
  
- 
+![image](https://user-images.githubusercontent.com/71596140/147380595-0b2fcae2-5bb7-45ed-98d1-af91132e2c2c.png)
 Figure 16: User 1(Shubham) has created the room as an admin and User 2 (Gautam) has joined it.
 
-
+![image](https://user-images.githubusercontent.com/71596140/147380618-6fbeaf44-96ce-44a8-93b4-7ccf5c3d86c3.png)
+![image](https://user-images.githubusercontent.com/71596140/147380628-080edc0f-7d6e-4942-a4ae-ae7a6b0cead6.png)
 Figure 17: User 1 sends messages and locations and while receiving messages simultaneously.
 
-
+<img width="603" alt="Screenshot 2021-12-25 at 1 43 07 PM" src="https://user-images.githubusercontent.com/71596140/147380661-d4c48205-376a-4e84-94f8-fa6efc00fe89.png">
 Figure 18: Illustrating the working of Profanity API by censoring foul words.
 
-
+![image](https://user-images.githubusercontent.com/71596140/147380680-e52236fd-dbc8-4725-8c99-117eded12c53.png)
+![image](https://user-images.githubusercontent.com/71596140/147380684-2146956b-9909-4acf-84ac-09f6cfc0761e.png)
 Figure 19: Media playing.
 
-
+![image](https://user-images.githubusercontent.com/71596140/147380691-155f5706-0f7a-4178-80b7-90013f757fdb.png)
+![image](https://user-images.githubusercontent.com/71596140/147380708-f8e14d48-c55b-4514-acf5-b620f33a7a19.png)
 Figure 20: File Sharing Functionality.
+
+#### Mobile View:
+![image](https://user-images.githubusercontent.com/71596140/147380730-761db528-04bf-43fd-9bc8-1506d31c68fe.png)
+![image](https://user-images.githubusercontent.com/71596140/147380735-8240fadb-7be9-49ae-a883-17471811c4cf.png)
+![image](https://user-images.githubusercontent.com/71596140/147380737-b97cd538-33be-490e-9682-178f51edee49.png)
+![image](https://user-images.githubusercontent.com/71596140/147380741-ae10d0e4-0c39-4821-ad60-ce50fbe947b1.png)
 
 
  

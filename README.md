@@ -182,16 +182,12 @@ the physical aspects of an object-oriented system. They are often be used to mod
 <p align="center"> Figure 20. File Sharing Functionality. </p>
 
 ### Mobile View:
-![image](https://user-images.githubusercontent.com/71596140/147380730-761db528-04bf-43fd-9bc8-1506d31c68fe.png)
+![WhatsApp Image 2021-12-06 at 8 35 14 PM](https://user-images.githubusercontent.com/71596140/147381286-c61ee024-097a-4b25-ae30-d8e811e91075.jpeg)
 <br />
 <br />
-![image](https://user-images.githubusercontent.com/71596140/147380735-8240fadb-7be9-49ae-a883-17471811c4cf.png)
+![WhatsApp Image 2021-12-06 at 8 36 29 PM](https://user-images.githubusercontent.com/71596140/147381307-01b76ca1-09b7-4764-99ee-f0f6f898327e.jpeg)
 <br />
 <br />
-![image](https://user-images.githubusercontent.com/71596140/147380737-b97cd538-33be-490e-9682-178f51edee49.png)
-<br />
-<br />
-![image](https://user-images.githubusercontent.com/71596140/147380741-ae10d0e4-0c39-4821-ad60-ce50fbe947b1.png)
-
+![WhatsApp Image 2021-12-06 at 8 35 54 PM](https://user-images.githubusercontent.com/71596140/147381310-6c5f6de4-19d6-458b-bf3c-68a25cb30006.jpeg)
 
  
